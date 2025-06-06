@@ -1,10 +1,9 @@
 import Image from "next/image";
-
 export default function GreysVage() {
   return (
     <div className="custom-container">
-      <div className="flex flex-wrap justify-center items-center gap-8 mt-20 mb-30">
-        <div className="flex flex-col w-full sm:w-[250px] items-center md:items-start">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-20 mb-30">
+        <div className="flex flex-col w-full sm:max-w-[250px] items-center md:items-start">
           <div>
             <Image
               src="/GreysVage/15off.png"
@@ -20,7 +19,7 @@ export default function GreysVage() {
           </p>
         </div>
 
-        <div className="flex flex-col w-full sm:w-[250px] items-center md:items-start">
+        <div className="flex flex-col w-full sm:max-w-[250px] items-center md:items-start">
           <div>
             <Image
               src="/GreysVage/10off.png"
