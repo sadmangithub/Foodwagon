@@ -1,5 +1,7 @@
 import Image from "next/image";
+import { useState } from "react";
 export default function HeroSection() {
+  const [selected, setSelected] = useState("delivery");
   return (
     <div className="min-h-[450px] bg-[url('/HeroSection/Noodles.png')] bg-cover bg-center">
       <div className="custom-container px-4 md:px-8">
@@ -12,7 +14,11 @@ export default function HeroSection() {
           </p>
           <div className="bg-white flex flex-col p-4 rounded-2xl w-full md:w-3/4 lg:w-1/2">
             <div className="flex flex-col sm:flex-row gap-4">
-              <div className="bg-orange-100 flex items-center space-x-2 rounded-md py-1 px-4 w-fit cursor-pointer">
+              <div
+                onClick={() => setSelected("delivery")}
+                className={`flex items-center space-x-2 rounded-md py-1 px-4 w-fit cursor-pointer 
+                ${selected === "delivery" ? "bg-orange-100" : ""}`}
+              >
                 <Image
                   src="/HeroSection/Bike.png"
                   alt="wagon"
@@ -20,9 +26,19 @@ export default function HeroSection() {
                   height={15}
                   className="w-fit h-auto"
                 />
-                <p className="text-[#FF8A00] text-sm font-bold">Delivery</p>
+                <p
+                  className={`text-sm font-bold ${
+                    selected === "delivery" ? "text-[#FF8A00]" : "text-gray-500"
+                  }`}
+                >
+                  Delivery
+                </p>
               </div>
-              <div className="flex items-center space-x-2 cursor-pointer">
+              <div
+                onClick={() => setSelected("pickup")}
+                className={`flex items-center space-x-2 rounded-md py-1 px-4 w-fit cursor-pointer 
+                ${selected === "pickup" ? "bg-orange-100" : ""}`}
+              >
                 <Image
                   src="/HeroSection/Lock.png"
                   alt="wagon"
@@ -30,7 +46,13 @@ export default function HeroSection() {
                   height={15}
                   className="w-fit h-auto"
                 />
-                <p className="font-bold text-sm text-gray-500">Pickup</p>
+                <p
+                  className={`text-sm font-bold ${
+                    selected === "pickup" ? "text-[#FF8A00]" : "text-gray-500"
+                  }`}
+                >
+                  Pickup
+                </p>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-5">

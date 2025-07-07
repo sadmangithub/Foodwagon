@@ -5,6 +5,8 @@ import GreysVage from "@/components/GreysVage";
 import Work from "@/components/Work";
 import Popular from "@/components/Popularitems";
 import Featured from "@/components/Featured";
+import Searchby from "@/components/Searchby";
+import Dailydiscount from "@/components/Dailydiscount";
 export default function Home() {
   return (
     <>
@@ -14,6 +16,8 @@ export default function Home() {
       <Work />
       <Popular />
       <Featured />
+      <Searchby />
+      <Dailydiscount />
     </>
   );
 }

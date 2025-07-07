@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Featured() {
   return (
     <div className="custom-container">
@@ -10,11 +9,11 @@ export default function Featured() {
       </div>
       <div className="grid grid-cols-4 gap-6 mb-20">
         <div className="flex flex-col space-y-4">
-          <div className="relative group overflow-hidden">
+          <div className="relative group rounded-xl overflow-hidden">
             <Image
               src="/Featured/Foodworld.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -47,16 +46,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#FCE3D4] text-[#FF8A00] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#FCE3D4] text-[#FF8A00] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Opens Tomorrow
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Pizzahub.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -89,16 +88,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#FCE3D4] text-[#FF8A00] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#FCE3D4] text-[#FF8A00] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Opens Tomorrow
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Donut.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -131,16 +130,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Open Now
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Icecream.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -173,16 +172,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Open Now
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Ruby.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -215,16 +214,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Open Now
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Kuakata.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -257,16 +256,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Open Now
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Pasta.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -299,16 +298,16 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Open Now
           </p>
         </div>
         <div className="flex flex-col space-y-4">
-          <div className="group relative overflow-hidden">
+          <div className="group rounded-xl relative overflow-hidden">
             <Image
               src="/Featured/Taco.png"
               alt="food"
-              width={357}
+              width={280}
               height={301}
               className="rounded-xl group-hover:scale-105 transition duration-300"
             />
@@ -341,7 +340,7 @@ export default function Featured() {
               </div>
             </div>
           </div>
-          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-bold mt-2 px-2 py-1 w-fit">
+          <p className="bg-[#E4F1D8] text-[#79b93c] rounded-xl text-sm font-semibold mt-2 px-2 py-1 w-fit">
             Open Now
           </p>
         </div>

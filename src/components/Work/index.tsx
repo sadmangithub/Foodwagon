@@ -2,11 +2,11 @@ import Image from "next/image";
 export default function Work() {
   return (
     <section className="bg-gradient-to-b from-[#ffcf6720] to-[#ffffff28] py-12 text-center">
-      <h2 className="text-3xl font-bold text-[#F17228] mb-25">
+      <h2 className="text-3xl font-bold text-[#F17228] mb-10">
         How does it work
       </h2>
       <div className="custom-container px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-20 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-20 justify-items">
           <div className="flex flex-col justify-center items-center text-center">
             <div>
               <Image
